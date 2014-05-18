@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registrar documento de investigación</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<script src="//code.jquery.com/jquery.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+
+
+	<!--<link rel="stylesheet" type="text/css" href="css/estilo.css">-->
+</head>
+<body>
+<!--Se incluye el encabezado de la pagina y la imagen de la pagina -->
+<img src="imagenes/bannerIPN.png">
+
+<!--Se hace la parte del menu -->
+	<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Menú</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Mi Perfil</a></li>      
+        <li><a href="#"><span class="glyphicon glyphicon-folder-close"></span> Mis documentos</a></li>
+      </ul>
+      <!--
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Número de Empleado">
+        </div>
+        <button type="submit" class="btn btn-default">Buscar</button>
+      </form>-->
+      <ul class="nav navbar-nav navbar-right">
+       <li><a href="#">Ayuda</a></li>
+       <li><a href="#">Cerrar Sesión</a></li>
+       <p class="navbar-text navbar-right">Mi nombre es:<a href="#" class="bg-success"> Raul Vivanco </a></p>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+    <div class="container">
+
+      <form role="form">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Registrar Programa y/o proyecto institucional de áreas centrales</h3>
+          </div>
+
+
+          <div class="panel-body">
+            <br /><br />
+            
+            <div class="row">
+                <div class="col-md-5 col-md-offset-5">
+                  <h3>Datos Generales</h3>
+                </div>
+              </div>
+
+              <br /><br />
+
+            <div class="row">
+              <div class="col-md-2"> </div>
+              <div class="col-md-8">
+
+
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="avance">Dependencia Coordinadora</label>
+                  <div class="col-md-9">
+                    <select id="avance" name="avance" class="form-control">
+                      <option value="1">Direccion General</option>
+                      <option value="2">Secretaria Academica</option>
+                      <option value="3">Secretaria de Investigacion y Posgrado</option>  
+                      <option value="4">Secretaria de Extension e Integracion Social</option>                                       
+                      <option value="5">Secretaria de Servicios Educativos</option>
+                      <option value="6">Secretaria de Gestion Estrategica</option>
+                      <option value="7">Secretaria de Administracion</option>
+                      <option value="8">Patronato de Obras e Instalaciones del IPN</option>
+                      <option value="9">Coordinación General de Servicios Informaticos</option>
+                    </select>
+                  </div>
+                </div> 
+
+
+              </div>
+              <div class="col-md-2"> </div>
+            </div>
+
+
+
+
+            <br /><br />
+
+
+
+
+
+            <div class="row">
+              <div class="col-md-2"> </div>
+              <div class="col-md-8">
+
+
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="avance">Nivel</label>
+                  <div class="col-md-9">
+                    <select id="avance" name="avance" class="form-control">
+                      <option value="1">Nivel Superior</option>
+                      <option value="2">Nivel Medio Superior</option>                      
+                    </select>
+                  </div>
+                </div> 
+
+
+              </div>
+              <div class="col-md-2"> </div>
+            </div>
+
+
+
+
+            <br /><br />
+
+
+
+
+            <div class="row">
+              <div class="row">
+                <div class="col-md-5 col-md-offset-5">
+                  <h3>Duración</h3>
+                </div>
+              </div>
+              <div class="col-md-2"> </div>
+
+              <div class="col-md-4"> 
+
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="claveRegistro">Inicio</label>  
+                  <div class="col-md-9">
+                    <input id="textinput" name="claveRegistro" placeholder="Ingresa la fecha de inicio" class="form-control input-md" type="date">                    
+                  </div>
+                </div> 
+
+
+              </div>
+              
+              <div class="col-md-4">
+
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="claveRegistro">Fin</label>  
+                  <div class="col-md-9">
+                    <input id="textinput" name="claveRegistro" placeholder="Ingresa la fecha de fin" class="form-control input-md" type="date">                    
+                  </div>
+                </div> 
+
+              </div>
+
+              <div class="col-md-2"> </div>
+              
+            </div>
+
+
+
+
+            <br />
+            <br />
+
+
+            <div class="row">
+              <div class="row">
+                <div class="col-md-5 col-md-offset-5">
+                  <h3>Constancia</h3>
+                </div>
+              </div>
+              <div class="col-md-2"> </div>
+
+              <div class="col-md-4"> 
+
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="claveRegistro">Número</label>  
+                  <div class="col-md-9">
+                    <input id="textinput" name="claveRegistro" placeholder="Ingresa el número de constancia" class="form-control input-md" type="text">                    
+                  </div>
+                </div> 
+
+
+              </div>
+              
+              <div class="col-md-4">
+
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="constancia">Constancia de validación</label>
+                  <div class="col-md-9">
+                    <input id="constancia" name="constancia" class="input-file" type="file">
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-md-2"> </div>
+              
+            </div>
+
+
+
+
+
+
+            <br /> 
+            <br />
+
+
+            <div class="row">
+              <div class="row">
+                <div class="col-md-5 col-md-offset-5">
+                  <h3>Mas información</h3>
+                </div>
+              </div>
+              <div class="col-md-2"> </div>
+
+              <div class="col-md-4"> 
+
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="avance">Nivel de Participación</label>
+                  <div class="col-md-9">
+                    <select id="avance" name="avance" class="form-control">
+                      <option value="1">Coordinador</option>
+                      <option value="2">Analista</option>                      
+                    </select>
+                  </div>
+                </div>
+
+
+              </div>
+              
+              <div class="col-md-4">
+
+                
+
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="avance">Tipo de programa o proyecto</label>
+                  <div class="col-md-9">
+                    <select id="avance" name="avance" class="form-control">
+                      <option value="1">Programa Institucional</option>
+                      <option value="2">Proyecto Institucional</option>
+                      <option value="3">Proyecto de dependencia</option>                      
+                    </select>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+
+              <div class="col-md-2"> </div>
+              
+            </div>
+
+
+
+
+
+            
+
+
+
+            <br /><br />
+
+
+
+            <div class="row">
+              <div class="col-md-2"> </div>
+              <div class="col-md-8">
+
+
+                <div class="form-group">                
+
+                  <label class="col-md-4 control-label" for="registrar"></label>
+                  <div class="col-md-8">
+                    <button id="registrar" name="registrar" class="btn btn-primary">Registrar</button>
+                    <button id="cancelar" name="cancelar" class="btn btn-danger">Cancelar</button>
+                  </div>
+
+                </div>  
+
+
+              </div>
+              <div class="col-md-2"> </div>
+            </div>
+
+
+
+
+
+
+
+
+
+          </div>          
+
+        </div>        
+
+      </form>
+    </div>
+    
+
+    
+
+  </div><!-- /.container-fluid -->
+</nav>		
+<!-- -->
+    
+
+
+</body>
+</html>
