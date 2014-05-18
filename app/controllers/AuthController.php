@@ -15,7 +15,7 @@
 			$instituciones=Institucion::all();
 			return View::make('registro')->with('instituciones',$instituciones);
 		}
-		
+		 
 		public function postRegistro()
 		{
 			$rules=array(
